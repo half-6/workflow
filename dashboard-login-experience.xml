@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-05T19:41:52.702Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="JBUj7rWVSmSh-npByc7t" version="12.2.0" type="github" pages="6">
+<mxfile modified="2019-11-05T19:43:05.878Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="6QI9_Nr5yln6CJ20tUK_" version="12.2.0" type="github" pages="6">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -528,7 +528,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LunbQH2PMUHqKoLIiBGA" name="CPQ API">
-    <mxGraphModel dx="2258" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1821" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="zByrm9luW8qyucxznUMh-0"/>
         <mxCell id="zByrm9luW8qyucxznUMh-1" parent="zByrm9luW8qyucxznUMh-0"/>
@@ -810,7 +810,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="120" y="975"/>
-              <mxPoint x="120" y="1257"/>
+              <mxPoint x="120" y="1251"/>
             </Array>
           </mxGeometry>
         </mxCell>
