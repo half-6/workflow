@@ -1,4 +1,4 @@
-<mxfile modified="2020-01-27T20:53:31.905Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Z3Qp8Bhdshh6HVdM8LRc" version="12.5.8" type="github" pages="7">
+<mxfile modified="2020-01-27T20:54:44.153Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="DEm9LIoDp8x4LC1eUOkl" version="12.5.8" type="github" pages="7">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1648" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -865,7 +865,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Kcj0yyiza4cAReTMypP7" name="Page-7">
-    <mxGraphModel dx="1648" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2235" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MoWr6ZVGHt9q7IIPNYLV-0"/>
         <mxCell id="MoWr6ZVGHt9q7IIPNYLV-1" parent="MoWr6ZVGHt9q7IIPNYLV-0"/>
@@ -981,6 +981,9 @@
         </mxCell>
         <mxCell id="Kw8Gm-9KjqoIdTFh5ZFL-8" value="Node JS Internal Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontStyle=1" vertex="1" parent="MoWr6ZVGHt9q7IIPNYLV-1">
           <mxGeometry x="160" y="1050" width="320" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Kw8Gm-9KjqoIdTFh5ZFL-9" value="Must make sure we only have one schedule job running" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=#FF0000;" vertex="1" parent="MoWr6ZVGHt9q7IIPNYLV-1">
+          <mxGeometry x="-23" y="1070" width="760" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
