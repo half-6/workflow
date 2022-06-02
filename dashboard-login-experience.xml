@@ -1,4 +1,4 @@
-<mxfile modified="2022-06-02T19:39:44.313Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="bnjs0nIChoL3ImG_5JJ3" version="18.2.0" type="github" pages="8">
+<mxfile modified="2022-06-02T19:40:53.701Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="CfkyVwWJvacr18oSUEkv" version="18.2.0" type="github" pages="8">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2420" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1129,8 +1129,8 @@
         <mxCell id="UZGijWfSBss0pGydD9Qp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;shadow=0;jettySize=auto;orthogonalLoop=1;strokeColor=#000000;fontFamily=Verdana;fontSize=12;" parent="UZGijWfSBss0pGydD9Qp-1" source="UZGijWfSBss0pGydD9Qp-23" target="UZGijWfSBss0pGydD9Qp-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="180" />
-              <mxPoint x="1411" y="180" />
+              <mxPoint x="960" y="210" />
+              <mxPoint x="1411" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1148,7 +1148,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OrZ3jfMV84tgjy1ZAG-V-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UZGijWfSBss0pGydD9Qp-1" source="UZGijWfSBss0pGydD9Qp-23" target="OrZ3jfMV84tgjy1ZAG-V-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="210" />
+              <mxPoint x="1221" y="210" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OrZ3jfMV84tgjy1ZAG-V-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="UZGijWfSBss0pGydD9Qp-1" source="UZGijWfSBss0pGydD9Qp-23" target="UZGijWfSBss0pGydD9Qp-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1394,9 +1399,7 @@
         <mxCell id="OrZ3jfMV84tgjy1ZAG-V-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="UZGijWfSBss0pGydD9Qp-1" source="OrZ3jfMV84tgjy1ZAG-V-0" target="UZGijWfSBss0pGydD9Qp-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1221" y="410" />
-              <mxPoint x="1110" y="410" />
-              <mxPoint x="1110" y="430" />
+              <mxPoint x="1221" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
