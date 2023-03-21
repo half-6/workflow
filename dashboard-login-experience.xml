@@ -1,4 +1,4 @@
-<mxfile modified="2023-03-21T22:51:59.020Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lxvppXXTKQ3WG2MG-_5m" version="21.0.10" type="github" pages="10">
+<mxfile modified="2023-03-21T23:09:50.624Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rI8tMypjZTogD6gJg5mp" version="21.0.10" type="github" pages="10">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1613" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1722,7 +1722,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d-1XVASliL546zytZakr" name="Page-10">
-    <mxGraphModel dx="3479" dy="3360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4530" dy="3565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1734,6 +1734,14 @@
         </mxCell>
         <mxCell id="TjQSvbYp0hgh1jhHBoeO-18" value="user/thankyou (email)&lt;br&gt;(eGenome)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="380" y="-290" width="373" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TjQSvbYp0hgh1jhHBoeO-19" target="OkJg9v7nmWTmVcS8-2J1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-31" value="Store status&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF6666;fontStyle=1" vertex="1" connectable="0" parent="OkJg9v7nmWTmVcS8-2J1-30">
+          <mxGeometry x="0.1077" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TjQSvbYp0hgh1jhHBoeO-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;send-optin-by-email&amp;nbsp; (email, phone)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-75" y="-420" width="370" height="50" as="geometry" />
@@ -1798,20 +1806,23 @@
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-11" value="&lt;h1&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Document DB&lt;/font&gt;&lt;/h1&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-940" y="-710" width="260" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-12" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-965" y="-350" width="310" height="150" as="geometry" />
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-12" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="-350" width="435" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-13" value="Email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
-          <mxGeometry y="30" width="310" height="30" as="geometry" />
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-13" value="BusinessId (Account this email address is tied to&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
+          <mxGeometry y="30" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-14" value="Type&amp;nbsp; (NewUser or NotificationContact)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
-          <mxGeometry y="60" width="310" height="30" as="geometry" />
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-36" value="Email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
+          <mxGeometry y="60" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-15" value="Validation State&amp;nbsp; &amp;nbsp;(Validated or not)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
-          <mxGeometry y="90" width="310" height="30" as="geometry" />
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-14" value="Type&amp;nbsp; (NewUser or NotificationContact)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
+          <mxGeometry y="90" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-16" value="Validation Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
-          <mxGeometry y="120" width="310" height="30" as="geometry" />
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-15" value="Validation State&amp;nbsp; &amp;nbsp;(Validated or not)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
+          <mxGeometry y="120" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-16" value="Validation Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-12">
+          <mxGeometry y="150" width="435" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkJg9v7nmWTmVcS8-2J1-17" target="OkJg9v7nmWTmVcS8-2J1-25">
           <mxGeometry relative="1" as="geometry" />
@@ -1824,6 +1835,30 @@
         </mxCell>
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-26" value="HPPD_EmailValidation_&amp;lt;Email&amp;gt;: &amp;lt;GUID Email Validation Token&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-25">
           <mxGeometry y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-32" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Notification Page&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" width="410" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-33" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;is-sms-optin(phone)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-290" y="340" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;is-email-validated(email)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;send-sms-optin(phone)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-290" y="460" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.452;entryY=1.206;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OkJg9v7nmWTmVcS8-2J1-37" target="OkJg9v7nmWTmVcS8-2J1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-830" y="-150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="445" y="640" />
+              <mxPoint x="-833" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;send-email-validation(email)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="370" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
