@@ -1,4 +1,4 @@
-<mxfile modified="2023-03-21T23:09:50.624Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rI8tMypjZTogD6gJg5mp" version="21.0.10" type="github" pages="10">
+<mxfile modified="2023-03-22T22:58:19.969Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cnkskoetTSVWAsUy9f7Z" version="21.0.10" type="github" pages="10">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1613" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1722,7 +1722,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d-1XVASliL546zytZakr" name="Page-10">
-    <mxGraphModel dx="4530" dy="3565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4303" dy="3507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1732,11 +1732,20 @@
         <mxCell id="TjQSvbYp0hgh1jhHBoeO-17" value="user/changepassword (newpassword, token, email)&lt;br&gt;(eGenome)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="341.5" y="-420" width="450" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TjQSvbYp0hgh1jhHBoeO-18" target="OkJg9v7nmWTmVcS8-2J1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TjQSvbYp0hgh1jhHBoeO-18" value="user/thankyou (email)&lt;br&gt;(eGenome)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="380" y="-290" width="373" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TjQSvbYp0hgh1jhHBoeO-19" target="OkJg9v7nmWTmVcS8-2J1-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OkJg9v7nmWTmVcS8-2J1-40" target="OkJg9v7nmWTmVcS8-2J1-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="-150" />
+              <mxPoint x="-320" y="-556" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-31" value="Store status&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF6666;fontStyle=1" vertex="1" connectable="0" parent="OkJg9v7nmWTmVcS8-2J1-30">
           <mxGeometry x="0.1077" y="3" relative="1" as="geometry">
@@ -1783,7 +1792,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TjQSvbYp0hgh1jhHBoeO-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Verify Token&lt;br&gt;user/validatepassword (token)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(eGenome)&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TjQSvbYp0hgh1jhHBoeO-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Verify Token&lt;br&gt;user/validatepassword (email/token)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(eGenome)&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="406.5" y="-800" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-3" value="&lt;h1&gt;Error&lt;/h1&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -1859,6 +1868,9 @@
         </mxCell>
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;send-email-validation(email)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="260" y="450" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-40" value="store-email-validated (email)&lt;br&gt;(Notification)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-180" width="373" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
