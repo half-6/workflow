@@ -1,4 +1,4 @@
-<mxfile modified="2023-03-22T22:58:19.969Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cnkskoetTSVWAsUy9f7Z" version="21.0.10" type="github" pages="10">
+<mxfile modified="2023-03-22T22:58:52.803Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mVLmuFJNvnB-nIia8w0T" version="21.0.10" type="github" pages="10">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1613" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1747,7 +1747,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-31" value="Store status&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF6666;fontStyle=1" vertex="1" connectable="0" parent="OkJg9v7nmWTmVcS8-2J1-30">
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-31" value="Store Email validated status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF6666;fontStyle=1" vertex="1" connectable="0" parent="OkJg9v7nmWTmVcS8-2J1-30">
           <mxGeometry x="0.1077" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
