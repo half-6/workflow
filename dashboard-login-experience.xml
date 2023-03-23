@@ -1,4 +1,4 @@
-<mxfile modified="2023-03-22T23:00:19.931Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fEa1JctfdgJr2ZS_CNqi" version="21.0.10" type="github" pages="10">
+<mxfile modified="2023-03-23T19:32:36.927Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DVGrHSoRzFfu1uedsv_j" version="21.0.10" type="github" pages="10">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1613" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1722,7 +1722,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d-1XVASliL546zytZakr" name="Email Validation">
-    <mxGraphModel dx="4303" dy="3507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4474" dy="3554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1871,6 +1871,24 @@
         </mxCell>
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-40" value="store-email-validated (email)&lt;br&gt;(Notification)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="380" y="-180" width="373" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-42" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="-640" width="435" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-43" value="BusinessId (Account this email address is tied to&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-42">
+          <mxGeometry y="30" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-44" value="phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-42">
+          <mxGeometry y="60" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-45" value="Type&amp;nbsp; (NewUser or NotificationContact)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-42">
+          <mxGeometry y="90" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-46" value="Validation State&amp;nbsp; &amp;nbsp;(Validated or not)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-42">
+          <mxGeometry y="120" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-47" value="Validation Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="OkJg9v7nmWTmVcS8-2J1-42">
+          <mxGeometry y="150" width="435" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
