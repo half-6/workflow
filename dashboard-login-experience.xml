@@ -1,4 +1,4 @@
-<mxfile modified="2023-05-03T22:06:03.880Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZvYkWspw1-g3XRuHcCHX" version="21.1.8" type="github" pages="10">
+<mxfile modified="2023-05-03T22:17:41.884Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-lk7oP9xQ79GgCyHL06i" version="21.1.8" type="github" pages="10">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2129" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1895,6 +1895,15 @@
         </mxCell>
         <mxCell id="idXDgt7E4wxSbIB4P0Bw-3" value="&lt;span style=&quot;font-weight: normal; font-size: 16px;&quot;&gt;New-password API&lt;br&gt;(Dashboard)&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="140" y="-540" width="393" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="idXDgt7E4wxSbIB4P0Bw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="idXDgt7E4wxSbIB4P0Bw-4" target="idXDgt7E4wxSbIB4P0Bw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="idXDgt7E4wxSbIB4P0Bw-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Email Validation Confirmation Page&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-3.5" y="830" width="410" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="idXDgt7E4wxSbIB4P0Bw-5" value="store-email-validated (email)&lt;br&gt;(Notification)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1230" width="373" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
