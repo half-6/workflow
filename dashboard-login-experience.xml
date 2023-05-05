@@ -1,4 +1,4 @@
-<mxfile modified="2023-05-05T05:14:22.885Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="OQ1QCxTrWxFr8Ssb2F_m" version="21.2.9" type="github" pages="10">
+<mxfile modified="2023-05-05T05:27:42.817Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-lEhaIoPPZr1eMEdUkBB" version="21.2.9" type="github" pages="10">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1775" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1869,8 +1869,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OkJg9v7nmWTmVcS8-2J1-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;send-email-validation(email)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="260" y="450" width="370" height="50" as="geometry" />
+        <mxCell id="OkJg9v7nmWTmVcS8-2J1-37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;send-email-validation(email,businessID,businessName)&lt;br&gt;(Notification)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF6666;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="150" y="450" width="510" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OkJg9v7nmWTmVcS8-2J1-40" value="store-email-validated (email, type)&lt;br&gt;(Notification)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;fontColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="380" y="-180" width="373" height="60" as="geometry" />
