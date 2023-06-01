@@ -1,4 +1,4 @@
-<mxfile modified="2023-06-01T20:26:22.594Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="7vFPA5dZnue12tz8GhbN" version="21.3.3" type="github" pages="11">
+<mxfile modified="2023-06-01T20:28:47.769Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Z4Mg6IpmxK9UEd3jrwbs" version="21.3.3" type="github" pages="11">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2029" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1908,12 +1908,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NnOv6PJttArgcK6Pm6Jd" name="Dashboard Two Factor Authentication">
-    <mxGraphModel dx="1418" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2056" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pqg1qr0v56UtYbLYnsDg-58" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="380" y="160" width="630" height="600" as="geometry" />
+          <mxGeometry x="380" y="160" width="1080" height="600" as="geometry" />
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-53" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="pqg1qr0v56UtYbLYnsDg-58">
           <mxGeometry width="630" height="600" as="geometry" />
@@ -2074,6 +2074,9 @@
             <mxPoint x="1020" y="310" as="sourcePoint" />
             <mxPoint x="1210" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-66" value="&lt;h1&gt;Dashboard Two Factor Authentication&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry y="50" width="1650" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
