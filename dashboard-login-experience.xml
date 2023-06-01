@@ -1,4 +1,4 @@
-<mxfile modified="2023-06-01T20:31:06.531Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="nw_LYL4BOt6OUi6mZy2C" version="21.3.3" type="github" pages="11">
+<mxfile modified="2023-06-01T20:34:46.629Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_3j8dZ7Shn3hWz0wpOME" version="21.3.3" type="github" pages="11">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2029" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2003,7 +2003,7 @@
         <mxCell id="pqg1qr0v56UtYbLYnsDg-6" value="user/authenticate&lt;br&gt;return {2faSetup information}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="220" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqg1qr0v56UtYbLYnsDg-7" value="2fa/send-sms-code(user_id)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-7" value="2fa/send-sms-code(user_id)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ec0909;" vertex="1" parent="1">
           <mxGeometry x="530" y="300" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-10" value="2fa/verify-sms-code(user_id,code)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
