@@ -1,4 +1,4 @@
-<mxfile modified="2023-06-01T20:43:10.115Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rPWpskmXcjiYCcsWzYTW" version="21.3.3" type="github" pages="11">
+<mxfile modified="2023-06-02T06:21:58.060Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="zCY-swUE18VaXByhizkR" version="21.3.3" type="github" pages="11">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2029" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1913,13 +1913,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pqg1qr0v56UtYbLYnsDg-58" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="380" y="160" width="1080" height="600" as="geometry" />
+          <mxGeometry x="380" y="160" width="1080" height="650" as="geometry" />
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-53" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="pqg1qr0v56UtYbLYnsDg-58">
-          <mxGeometry width="630" height="600" as="geometry" />
+          <mxGeometry width="630" height="650" as="geometry" />
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-56" value="eGenome" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="pqg1qr0v56UtYbLYnsDg-58">
           <mxGeometry width="630" height="26.865671641791046" as="geometry" />
+        </mxCell>
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-68" value="2fa/setup(user_id)&amp;nbsp; GET&lt;br&gt;return {2faSetup informationl}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pqg1qr0v56UtYbLYnsDg-58">
+          <mxGeometry x="150" y="560" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-57" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="100" y="160" width="240" height="600" as="geometry" />
@@ -2003,19 +2006,19 @@
         <mxCell id="pqg1qr0v56UtYbLYnsDg-6" value="user/authenticate&lt;br&gt;return {2faSetup information}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="220" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqg1qr0v56UtYbLYnsDg-7" value="2fa/send-sms-code(user_id)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-7" value="2fa/send-sms-code(user_id)&amp;nbsp; POST&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="300" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqg1qr0v56UtYbLYnsDg-10" value="2fa/verify-sms-code(user_id,code)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-10" value="2fa/verify-sms-code(user_id,code) POST&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="380" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqg1qr0v56UtYbLYnsDg-11" value="2fa/send-email-code(user_id)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-11" value="2fa/send-email-code(user_id) POST&lt;br&gt;return {status:bool}&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="460" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqg1qr0v56UtYbLYnsDg-12" value="2fa/verify-email-code(user_id,code)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-12" value="2fa/verify-email-code(user_id,code) POST&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="540" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pqg1qr0v56UtYbLYnsDg-13" value="2fa/setup(user_id, email, activeEmail, sms, activeSMS)&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pqg1qr0v56UtYbLYnsDg-13" value="2fa/setup(user_id, email, activeEmail, sms, activeSMS) POST&lt;br&gt;return {status:bool}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="640" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-27" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
