@@ -1,6 +1,6 @@
-<mxfile modified="2023-06-03T02:55:29.937Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KoKnAQGdupevArK_iv9H" version="21.3.7" type="github" pages="11">
+<mxfile modified="2023-08-07T22:45:30.411Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jIi6RNI5kJSn-0CMKFQ8" version="21.3.7" type="github" pages="12">
   <diagram name="Customer Login Experience" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2056" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1849" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1053,7 +1053,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of New login flow" id="OGyskhDkQzZOaTpuut2t">
-    <mxGraphModel dx="2856" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2676" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pmXRyi2TYWcgy9u2DbW5-0" />
         <mxCell id="pmXRyi2TYWcgy9u2DbW5-1" parent="pmXRyi2TYWcgy9u2DbW5-0" />
@@ -2087,6 +2087,119 @@
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-66" value="&lt;h1&gt;Dashboard Two Factor Authentication&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
           <mxGeometry y="80" width="1650" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bmgr66auzM3atgMunCky" name="Demo Application">
+    <mxGraphModel dx="2676" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lNCk638EH_ifYM2v_PTu-1" target="lNCk638EH_ifYM2v_PTu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-1" value="eGenome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lNCk638EH_ifYM2v_PTu-2" target="lNCk638EH_ifYM2v_PTu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-2" value="Notification&lt;br&gt;(AssetCache)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lNCk638EH_ifYM2v_PTu-3" target="lNCk638EH_ifYM2v_PTu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-3" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="205" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lNCk638EH_ifYM2v_PTu-4" target="lNCk638EH_ifYM2v_PTu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-4" value="Doc DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="405" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lNCk638EH_ifYM2v_PTu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-15" value="Create demo@hibu.com demo user in SSO with businessId and integrationID &lt;b&gt;9999999999 (10 digits)&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingTop=7;spacing=5;spacingLeft=20;spacingRight=20;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="185" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lNCk638EH_ifYM2v_PTu-16" target="lNCk638EH_ifYM2v_PTu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-16" value="Create mock&amp;nbsp;products for businessID&amp;nbsp;&lt;b&gt;9999999999 &lt;/b&gt;in AssetCache, we can copy products information from any other account" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingTop=7;spacing=5;spacingLeft=20;spacingRight=20;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="390" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lNCk638EH_ifYM2v_PTu-21" target="Uaz_Cb7-uiuAod3GorOt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-21" value="Dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lNCk638EH_ifYM2v_PTu-22" target="lNCk638EH_ifYM2v_PTu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNCk638EH_ifYM2v_PTu-22" value="Karaf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-4" value="SF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uaz_Cb7-uiuAod3GorOt-5" target="Uaz_Cb7-uiuAod3GorOt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;NO&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0" vertex="1" connectable="0" parent="Uaz_Cb7-uiuAod3GorOt-7">
+          <mxGeometry x="-0.4531" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uaz_Cb7-uiuAod3GorOt-5" target="lNCk638EH_ifYM2v_PTu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="980" />
+              <mxPoint x="-65" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-11" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uaz_Cb7-uiuAod3GorOt-10">
+          <mxGeometry x="-0.8209" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-5" value="is businessID &lt;b&gt;9999999999?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="680" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.056;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uaz_Cb7-uiuAod3GorOt-12" target="lNCk638EH_ifYM2v_PTu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="705" />
+              <mxPoint x="-170" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-12" value="Create demo account information for businessID 9999999999 in mockAccount Collections, include business name, address etc...&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;spacingTop=7;spacing=5;spacingLeft=20;spacingRight=20;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="630" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uaz_Cb7-uiuAod3GorOt-14" target="lNCk638EH_ifYM2v_PTu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-14" value="Normal user login with&amp;nbsp;demo@hibu.com" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uaz_Cb7-uiuAod3GorOt-15" target="lNCk638EH_ifYM2v_PTu-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+              <mxPoint x="560" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uaz_Cb7-uiuAod3GorOt-15" value="JWT token login" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="500" width="170" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
