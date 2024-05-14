@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T20:26:18.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="xC2amSmZdjOOJ9w4Qf2R" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T20:28:13.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="j0346qoZZYFaV_2mzeYH" version="24.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="gMn0jEGUSGzAj_YLGTHS-15" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gMn0jEGUSGzAj_YLGTHS-15" value="" style="group;dashed=1;strokeColor=none;dashPattern=8 8;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="180" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="gMn0jEGUSGzAj_YLGTHS-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="gMn0jEGUSGzAj_YLGTHS-15">
@@ -99,6 +99,17 @@
         </mxCell>
         <mxCell id="gMn0jEGUSGzAj_YLGTHS-35" value="Client C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1030" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gMn0jEGUSGzAj_YLGTHS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gMn0jEGUSGzAj_YLGTHS-40" target="gMn0jEGUSGzAj_YLGTHS-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gMn0jEGUSGzAj_YLGTHS-42" value="New Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gMn0jEGUSGzAj_YLGTHS-41">
+          <mxGeometry x="-0.3103" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gMn0jEGUSGzAj_YLGTHS-40" value="Signpost&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
