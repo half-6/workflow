@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T22:29:21.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ru9O1uosuJN2SbFEIXHe" version="24.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-17T22:30:18.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MQERLYp8jTxXUe_vB0Uf" version="24.4.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="AWS SQS">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -303,7 +303,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="-XSJWaYHoBaL8rWp3MU7" name="Page-3">
+  <diagram id="-XSJWaYHoBaL8rWp3MU7" name="Kafka">
     <mxGraphModel dx="2074" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
