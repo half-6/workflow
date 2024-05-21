@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T21:21:56.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1x_HlK2yukzlVSXd3ptk" version="24.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-05-21T21:34:21.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JYdIPomePecuRpQGcwSN" version="24.4.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="AWS SQS">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -449,7 +449,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6BW27xKg1p_VN-f7v0fu" name="Kafka n-n">
-    <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -593,7 +593,7 @@
         <mxCell id="PE9kYPGshCeBVThEnHdC-38" value="Partition 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PE9kYPGshCeBVThEnHdC-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kafka N-N&lt;/h1&gt;&lt;p&gt;multiple partitions with multiple consumers,&amp;nbsp; it will not maintain the order of messages crossed the partitions.&amp;nbsp; &amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PE9kYPGshCeBVThEnHdC-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kafka N-N&amp;nbsp; (828ms)&lt;/h1&gt;&lt;p&gt;multiple partitions with multiple consumers,&amp;nbsp; it will not maintain the order of messages crossed the partitions.&amp;nbsp; &amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="730" width="650" height="120" as="geometry" />
         </mxCell>
       </root>
