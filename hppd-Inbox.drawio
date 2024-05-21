@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T20:22:13.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="QXzF7IKyhm7GI08esDCH" version="24.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-05-21T21:05:02.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="BWlTN231RDa1xsaBtLRx" version="24.4.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="AWS SQS">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -439,7 +439,7 @@
         <mxCell id="rJA_Uv-LGynLvaWfSVZr-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;groupid=dashboard-inbox-group-${servername}-${instanceId}&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="380" y="130" width="580" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NMrmwvPXYmhV27BL28Uy-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kafka 1-N&amp;nbsp; (710ms)&lt;/h1&gt;&lt;p&gt;default partition with multiple consumers.&amp;nbsp; &amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NMrmwvPXYmhV27BL28Uy-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kafka 1-N&amp;nbsp; (709ms)&lt;/h1&gt;&lt;p&gt;default partition with multiple consumers.&amp;nbsp; &amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="730" width="650" height="120" as="geometry" />
         </mxCell>
       </root>
