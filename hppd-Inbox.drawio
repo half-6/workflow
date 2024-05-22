@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T01:07:30.507Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="T2urlzHMEu03AqY4fu49" version="24.4.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-05-22T01:07:35.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="8Ja1IhVDSU1HTHkqRtL9" version="24.4.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="AWS SQS">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -769,7 +769,7 @@
           <mxGeometry x="170" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAn9Iw8ME5hYN6KrQgGP-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kafka 1-1 (402ms)&amp;nbsp; &amp;nbsp;&lt;/h1&gt;&lt;p&gt;duplicated messages to all partitions, and each instance will point to one partition.&amp;nbsp; it will keep the order of messages within partition.&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="730" width="650" height="120" as="geometry" />
+          <mxGeometry y="750" width="650" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KAn9Iw8ME5hYN6KrQgGP-39" value="Partition 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="599" width="120" height="60" as="geometry" />
