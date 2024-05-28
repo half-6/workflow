@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T21:46:27.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="wljaFEBhQsDRYozyjhLj" version="24.4.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-28T21:47:02.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="t4lZN_KN63PvBd3viTp-" version="24.4.8" type="github" pages="2">
   <diagram id="-XSJWaYHoBaL8rWp3MU7" name="Kafka 1-n">
     <mxGraphModel dx="1728" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
             <mxPoint x="1060" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7U53JJxiEEq9U5M-rScB-17" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;#3 handshake success, listen on &quot;&lt;b&gt;new-message&lt;/b&gt;&quot; event&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#67AB9F;" vertex="1" parent="1">
+        <mxCell id="7U53JJxiEEq9U5M-rScB-17" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;#3 handshake success, subscribe on &quot;&lt;b&gt;new-message&lt;/b&gt;&quot; event&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="796" y="220" width="404" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7U53JJxiEEq9U5M-rScB-20" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;#1 Handshake with HibuJWT token&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#67AB9F;" vertex="1" parent="1">
