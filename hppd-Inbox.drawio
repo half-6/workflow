@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T19:23:22.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="opvkNoPbYpO7Stkcdq97" version="24.4.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-30T19:23:58.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Fil8MAB0TVBWPHtl1O1G" version="24.4.9" type="github" pages="2">
   <diagram id="-XSJWaYHoBaL8rWp3MU7" name="Kafka 1-n">
     <mxGraphModel dx="1185" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,7 +187,7 @@
             <mxPoint x="1200" y="270" as="sourcePoint" />
             <mxPoint x="1250" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1200" y="30" />
+              <mxPoint x="1200" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
