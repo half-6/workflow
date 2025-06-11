@@ -186,8 +186,8 @@
         <mxCell id="t50aKcJqjb51uHy66qTZ-4" value="is Login" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="t50aKcJqjb51uHy66qTZ-5" value="Dashboard Next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="t50aKcJqjb51uHy66qTZ-5" value="Dashboard Next&lt;div&gt;(@auth0/nextjs-auth0)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t50aKcJqjb51uHy66qTZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t50aKcJqjb51uHy66qTZ-8" target="t50aKcJqjb51uHy66qTZ-12">
           <mxGeometry relative="1" as="geometry" />
@@ -260,10 +260,15 @@
         <mxCell id="t50aKcJqjb51uHy66qTZ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t50aKcJqjb51uHy66qTZ-40" target="t50aKcJqjb51uHy66qTZ-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="seScycrZOChfOXxEmgS3-1" value="auth0 accessToken (JWK)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t50aKcJqjb51uHy66qTZ-43">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="t50aKcJqjb51uHy66qTZ-40" value="Write to browser storage" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="440" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="t50aKcJqjb51uHy66qTZ-42" value="Dashboard Overview&lt;div&gt;(Nodejs)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="t50aKcJqjb51uHy66qTZ-42" value="Dashboard Overview&lt;div&gt;(Nodejs - expressJwt)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="580" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b0gTVYV09C4tsI-pkKJo-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-weight: normal; font-size: 30px;&quot;&gt;&lt;font style=&quot;&quot;&gt;Performance Dashboard&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Auth0 Login Flow&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
