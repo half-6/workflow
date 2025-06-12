@@ -278,7 +278,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0hF4obxa8XO9abzjWbTJ" name="Auth0 Sign up workflow">
-    <mxGraphModel dx="2165" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2165" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -366,8 +366,11 @@
         <mxCell id="IpViqzWbTZ1JyxwdLZXF-13" value="active:false" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IpViqzWbTZ1JyxwdLZXF-10">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IpViqzWbTZ1JyxwdLZXF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IpViqzWbTZ1JyxwdLZXF-14" target="IpViqzWbTZ1JyxwdLZXF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IpViqzWbTZ1JyxwdLZXF-14" value="Hibu customer support" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="910" width="30" height="60" as="geometry" />
+          <mxGeometry x="70" y="920" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IpViqzWbTZ1JyxwdLZXF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IpViqzWbTZ1JyxwdLZXF-15" target="IpViqzWbTZ1JyxwdLZXF-16">
           <mxGeometry relative="1" as="geometry" />
@@ -379,10 +382,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IpViqzWbTZ1JyxwdLZXF-16" value="Mapping business Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="432.5" y="920" width="167.5" height="60" as="geometry" />
+          <mxGeometry x="402.5" y="920" width="167.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IpViqzWbTZ1JyxwdLZXF-18" value="eGenome Update User" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="920" width="140" height="60" as="geometry" />
+          <mxGeometry x="650" y="920" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
