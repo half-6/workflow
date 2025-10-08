@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="5">
   <diagram id="CTZovY5pAtSEN256XCaC" name="Dashboard login flow">
     <mxGraphModel dx="2842" dy="2533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -739,6 +739,43 @@
         </mxCell>
         <mxCell id="JeJrRJAljK9uIvw3cm2e-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Dashboard Architecture&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Use proxy to forward traffic to two different apps.&lt;/li&gt;&lt;li&gt;Share session cookie to store user access token, and pass to server side by using Authentication bearer header&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="610" width="410" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Dashboard Architecture Auth0" id="EQrhlEhMJMmUM8AjIR_b">
+    <mxGraphModel dx="1795" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Xf-U4p6B3NL8eQNK4cwv-0" />
+        <mxCell id="Xf-U4p6B3NL8eQNK4cwv-1" parent="Xf-U4p6B3NL8eQNK4cwv-0" />
+        <mxCell id="0lGCnVAylwRc5ZMZXe7D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Xf-U4p6B3NL8eQNK4cwv-1" source="Xf-U4p6B3NL8eQNK4cwv-6" target="0lGCnVAylwRc5ZMZXe7D-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf-U4p6B3NL8eQNK4cwv-6" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="Xf-U4p6B3NL8eQNK4cwv-1">
+          <mxGeometry x="410" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0lGCnVAylwRc5ZMZXe7D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Xf-U4p6B3NL8eQNK4cwv-1" source="Xf-U4p6B3NL8eQNK4cwv-7" target="Xf-U4p6B3NL8eQNK4cwv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lGCnVAylwRc5ZMZXe7D-4" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;Authentication bearer header&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0lGCnVAylwRc5ZMZXe7D-3">
+          <mxGeometry x="-0.36" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xf-U4p6B3NL8eQNK4cwv-7" value="Dashboard Next&lt;div&gt;/&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="Xf-U4p6B3NL8eQNK4cwv-1">
+          <mxGeometry x="365" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf-U4p6B3NL8eQNK4cwv-8" value="Dashboard&lt;div&gt;/&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="Xf-U4p6B3NL8eQNK4cwv-1">
+          <mxGeometry x="680" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xf-U4p6B3NL8eQNK4cwv-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Dashboard Architecture with auth0&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;No need proxy.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Dashboard Next will pass traffic to Old Dashboard after authentication success with authentication bearer header, so no need Old Dashboard code changes&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Xf-U4p6B3NL8eQNK4cwv-1">
+          <mxGeometry x="100" y="660" width="455" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0lGCnVAylwRc5ZMZXe7D-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Xf-U4p6B3NL8eQNK4cwv-1" source="0lGCnVAylwRc5ZMZXe7D-0" target="Xf-U4p6B3NL8eQNK4cwv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lGCnVAylwRc5ZMZXe7D-0" value="Auth0" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="Xf-U4p6B3NL8eQNK4cwv-1">
+          <mxGeometry x="365" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
