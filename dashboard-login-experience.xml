@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="4">
   <diagram id="CTZovY5pAtSEN256XCaC" name="Dashboard login flow">
     <mxGraphModel dx="2842" dy="2533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -707,6 +707,38 @@
         </mxCell>
         <mxCell id="pqg1qr0v56UtYbLYnsDg-66" value="&lt;h1&gt;Dashboard Two Factor Authentication&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
           <mxGeometry y="80" width="1650" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vqBYczQq86UBAfUN5L3V" name="Page-4">
+    <mxGraphModel dx="1795" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-SRD2Oq2yzjRN6e2-xcR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-SRD2Oq2yzjRN6e2-xcR-1" target="-SRD2Oq2yzjRN6e2-xcR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-SRD2Oq2yzjRN6e2-xcR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-SRD2Oq2yzjRN6e2-xcR-1" target="-SRD2Oq2yzjRN6e2-xcR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-SRD2Oq2yzjRN6e2-xcR-1" value="Proxy" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-SRD2Oq2yzjRN6e2-xcR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-SRD2Oq2yzjRN6e2-xcR-2" target="-SRD2Oq2yzjRN6e2-xcR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-SRD2Oq2yzjRN6e2-xcR-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-SRD2Oq2yzjRN6e2-xcR-4" value="Dashboard Next&lt;div&gt;/next&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-SRD2Oq2yzjRN6e2-xcR-5" value="Dashboard&lt;div&gt;/&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JeJrRJAljK9uIvw3cm2e-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Dashboard Architecture&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Use proxy to forward traffic to two different apps.&lt;/li&gt;&lt;li&gt;Share session cookie to store user access token, and pass to server side by using Authentication bearer header&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="610" width="410" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
